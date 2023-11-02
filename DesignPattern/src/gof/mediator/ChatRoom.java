@@ -17,4 +17,8 @@ public class ChatRoom {
    public static void showMessage(User user, String message){
       System.out.println(new Date().toString() + " [" + user.getName() + "] : " + message);
    }
+
+    static void showMessage(University aThis, String message, Colleague[] targets) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
