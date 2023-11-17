@@ -9,6 +9,8 @@ package gof.Proxy;
  *
  * @author fa20-bse-052
  */
-public class Image {
-    
+
+
+public interface Image {
+    void display(String imageType);
 }

@@ -9,6 +9,7 @@ package gof.Fascade;
  *
  * @author fa20-bse-052
  */
-public class Codec {
-    
+
+
+public interface Codec {
 }
