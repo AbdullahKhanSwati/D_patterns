@@ -9,6 +9,10 @@ package gof.Fascade.LabTask;
  *
  * @author fa20-bse-052
  */
-public class Square {
-    
+public class Square implements Shape {
+
+   @Override
+   public void draw() {
+      System.out.println("Square::draw()");
+   }
 }

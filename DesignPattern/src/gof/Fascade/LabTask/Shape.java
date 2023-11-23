@@ -10,5 +10,5 @@ package gof.Fascade.LabTask;
  * @author fa20-bse-052
  */
 public interface Shape {
-    
+   void draw();
 }

@@ -5,10 +5,11 @@
  */
 package gof.Fascade.LabTask;
 
-/**
- *
- * @author fa20-bse-052
- */
+
 public class FacadePatternDemo {
-    
+    public static void main(String[] args) {
+        ShapeMaker shapeMaker = new ShapeMaker();
+
+        shapeMaker.draw("circle,rectangle,square,triangle");
+    }
 }
