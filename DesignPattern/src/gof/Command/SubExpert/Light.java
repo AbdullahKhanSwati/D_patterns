@@ -3,12 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gof.Adapter.TotorialPoint;
+package gof.Command.SubExpert;
 
 /**
  *
  * @author fa20-bse-052
  */
-public interface MediaPlayer {
-   public void play(String audioType, String fileName);
+public class Light {
+
+    private boolean isOn;
+
+    public void switchOn() {
+        isOn = true;
+    }
+
+    public void switchOff() {
+        isOn = false;
+    }
+
 }

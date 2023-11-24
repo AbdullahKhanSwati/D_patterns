@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gof.Adapter.TotorialPoint;
+package gof.Command.TutorialPoint;
 
 /**
  *
  * @author fa20-bse-052
  */
-public interface MediaPlayer {
-   public void play(String audioType, String fileName);
+public interface Order {
+   void execute();
 }

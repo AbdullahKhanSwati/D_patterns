@@ -9,6 +9,6 @@ package gof.Adapter;
  *
  * @author fa20-bse-052
  */
-public class AdvanceMediaPlayer {
-    
+public interface AdvancedMediaPlayer {
+   public void play(String fileName);
 }

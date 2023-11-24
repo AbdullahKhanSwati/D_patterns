@@ -10,5 +10,5 @@ package gof.Adapter;
  * @author fa20-bse-052
  */
 public interface MediaPlayer {
-    
+   public void play(String audioType, String fileName);
 }

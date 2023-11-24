@@ -9,6 +9,9 @@ package gof.Adapter;
  *
  * @author fa20-bse-052
  */
-public class AacPlayer {
-    
+public class AacPlayer implements AdvancedMediaPlayer {
+    @Override
+    public void play(String fileName) {
+        System.out.println("Playing AAC file. Name: " + fileName);
+    }
 }

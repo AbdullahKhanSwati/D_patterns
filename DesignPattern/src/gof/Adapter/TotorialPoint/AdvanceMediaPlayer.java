@@ -9,6 +9,7 @@ package gof.Adapter.TotorialPoint;
  *
  * @author fa20-bse-052
  */
-public interface AdvanceMediaPlayer {
-    
+public interface AdvancedMediaPlayer {	
+   public void playVlc(String fileName);
+   public void playMp4(String fileName);
 }
