@@ -9,7 +9,7 @@ package gof.Momento.Command;
  *
  * @author fa20-bse-052
  */
-import refactoring_guru.memento.example.editor.Editor;
+
 
 public class Memento {
     private String backup;
