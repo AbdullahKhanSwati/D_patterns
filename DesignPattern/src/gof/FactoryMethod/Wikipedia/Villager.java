@@ -9,6 +9,9 @@ package gof.FactoryMethod.Wikipedia;
  *
  * @author fa20-bse-052
  */
-public class Villager {
-    
+public class Villager implements IPerson {
+    @Override
+    public String getName() {
+        return "Village Person";
+    }
 }

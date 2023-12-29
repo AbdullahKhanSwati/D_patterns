@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gof.FactoryMethod.Wikipedia;
+package gof.LabFinal;
 
 /**
  *
  * @author fa20-bse-052
  */
-public interface IPerson {
-    String getName();
+public interface Observer {
+    void update(String message);
 }

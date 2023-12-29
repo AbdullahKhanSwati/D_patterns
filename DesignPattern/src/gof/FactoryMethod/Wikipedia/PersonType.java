@@ -9,6 +9,7 @@ package gof.FactoryMethod.Wikipedia;
  *
  * @author fa20-bse-052
  */
-public class Persontype {
-    
+public enum PersonType {
+    Rural,
+    Urban
 }
